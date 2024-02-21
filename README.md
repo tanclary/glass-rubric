@@ -1,7 +1,7 @@
 # Elementary Matrix Multiplier
 First note that I'm a bad coder and an even worse mathematician. If you read this and actually trust it that's on you.
 
-Sometimes if you have a square* matrix A, and you want to transform it in another square matrix B, you may use a sequence of elementary row operations.
+Sometimes if you have a square* matrix A, and you want to transform it into another square matrix B, you may use a sequence of elementary row operations.
 
 These operations come in three flavors: you can swap two rows, multiply a row by some scalar, or add some row i some number of times to row j.
 
