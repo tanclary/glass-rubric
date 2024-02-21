@@ -40,9 +40,9 @@ Now, sometimes it takes more than one transformation to achieve the desired matr
 Imagine our first transformation is swapping rows 1 and 2 (E[1,2]). 
 Imagine our second transformation is multiplying row 3 by 4 (E_4[3]).
 
-To get to our final elementary matrix necessary to transform our original matrix into the desired matrix, we can just find a series of matrix products.
-The formula looks something like [elementary matrix for last transform] * [elementary matrix for second to last transform] * ... * [elementary matrix for first transform]
-More simply put: En * En-1 * ... * E2 * E1 
+To get to our final elementary matrix necessary to transform our original matrix into the desired matrix, we can just find a series of matrix products.  
+The formula looks something like [elementary matrix for last transform] * [elementary matrix for second to last transform] * ... * [elementary matrix for first transform]  
+More simply put: En * En-1 * ... * E2 * E1   
 
 The product of all this craziness is some final matrix E that when left-multiplied by our original matrix, should ideally give us our desired matrix.
 
