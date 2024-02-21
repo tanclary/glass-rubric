@@ -17,7 +17,7 @@ You may notice you can achieve this by swapping rows 1 and 2.
 
 As it turns out, instead of just typing out what transformation you're doing in a sentence, it can be represented as a matrix that you multiply against your original matrix.
 
-To continue with the example above, you can verify that multiplying  
+To continue with the example above, you can verify that left-multiplying  
 0 1    
 1 0   
 by our original matrix gives us the desired result.
