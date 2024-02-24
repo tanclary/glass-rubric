@@ -58,3 +58,18 @@ Also please leave comments or something.
 
 * A matrix need not be square to perform elementary row operations but this tool is only useful in that case. What are you doing with non-square matrices anyways, brah? You scared? Everything people said about you? Yeah, they were right. Anyways...
 
+### Download and build
+
+JDK 14 or higher.
+
+```bash
+$ git clone git://github.com/tanclary/glass-rubric.git
+$ cd glass-rubric
+$ ./mvnw clean verify
+```
+
+On Windows, the last line is
+
+```bash
+> mvnw install
+```
